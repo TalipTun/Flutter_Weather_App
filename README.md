@@ -37,23 +37,29 @@ What I learnt from this project:
 # Advanced State Management with StatefulWidget:
 
 • Managing Dynamic Data: Deepened understanding of StatefulWidget and setState() for updating UI elements dynamically based on fetched data.
+
 • State Variables: Learned to declare and correctly update member variables within the _State class to hold fetched data (e.g., _temperature, _weatherCondition), making them accessible to the build method.
+
 • Initialization and UI Reflection: Understood the importance of initializing state variables and how setState() triggers a rebuild to reflect the new data in the UI.
 
 # User Input and Control:
 
 • Text Field Input (TextEditingController): Utilized TextEditingController to capture user input from text fields (latitude and longitude) for dynamic API queries.
+
 • Resource Management (dispose): Practiced cleaning up controllers using the dispose() method to prevent memory leaks.
 
 # Robust Error Handling:
 
 • try-catch Blocks: Implemented try-catch blocks to gracefully handle potential errors during network requests (e.g., network issues, invalid API responses).
+
 • Status Code Interpretation: Learned to check response.statusCode (e.g., 200 for success, 401 for unauthorized, 403 for forbidden) and display appropriate messages to the user.
 
 # Refined UI Layout Techniques:
 
 • Nested Layout Widgets: Gained experience in creating more complex layouts by nesting Column and Row widgets.
+
 • mainAxisAlignment and crossAxisAlignment for Specific Control: Used mainAxisAlignment.spaceBetween within Rows to distribute content and crossAxisAlignment.center on Columns to center entire blocks of content.
+
 • Sizing Widgets: Used SizedBox to control the dimensions of specific UI elements.
 
 <img width="789" height="622" alt="Screenshot at Jul 30 18-15-40" src="https://github.com/user-attachments/assets/0571f9d7-c7b3-419e-83e7-63fed6d1f42c" />
