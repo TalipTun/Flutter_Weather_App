@@ -23,12 +23,15 @@ What I learnt from this project:
 # Asynchronous Network Communication:
 
 • HTTP GET Requests: Mastered sending HTTP GET requests to fetch data from remote APIs using the http package.
+
 • async and await: Understood how to use async and await keywords to handle asynchronous operations (like network calls) gracefully, preventing the UI from freezing.
 
 # API Integration and Data Handling:
 
 • JSON Parsing (dart:convert): Learned to decode JSON strings received from an API into usable Dart objects (like Map<String, dynamic>), enabling access to specific data fields.
+
 • API Key Management (flutter_dotenv): Implemented a method to securely store and load sensitive information like API keys from a .env file, keeping them out of directly committed source code. This also involved correctly configuring assets in pubspec.yaml and using dotenv.load().
+
 • API-Specific Interactions (OpenWeatherMap): Gained experience in formulating specific API requests (e.g., using lat, lon, appid, units parameters) and interpreting the structure of their JSON responses.
 
 # Advanced State Management with StatefulWidget:
